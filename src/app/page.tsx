@@ -60,7 +60,6 @@ export default function Home() {
           </form>
         </div>
       </main>
-      {/* Blockquote */}
       <blockquote className="italic text-center text-gray-700 text-sm max-w-sm -mb-4 sm:-mb-2 sm:ml-[-40px] ml-[-20px]">
         “We are working hard to build something meaningful.{" "}
         <span className="font-semibold">
@@ -71,8 +70,6 @@ export default function Home() {
           – Team Effaro
         </span>
       </blockquote>
-
-      {/* Map */}
       <div className="w-full max-w-6xl flex flex-col items-center justify-center -mt-12 sm:-mt-10">
         <div className="relative w-full max-w-full">
           <Image
@@ -84,8 +81,6 @@ export default function Home() {
           />
         </div>
       </div>
-
-      {/* Footer */}
       <footer className="text-xs text-gray-400 mt-16 text-center">
         &copy; {new Date().getFullYear()} Effaro. All rights reserved.
       </footer>
