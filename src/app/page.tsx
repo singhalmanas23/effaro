@@ -56,8 +56,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFF7EB] font-sans overflow-x-hidden text-[#1D1D1F] px-2 py-1 sm:px-4 sm:py-4">
       <Toaster position="top-center" toastOptions={{ duration: 3000 }} />
-
-      {/* Header */}
       <header className="mb-2 -mt-10 sm:-mt-16 md:-mt-20">
         <div className="flex flex-col items-start">
           <Image
@@ -75,8 +73,6 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 sm:mb-8 text-[#1D1D1F]">
             Coming Soon
           </h1>
-
-          {/* Notification section */}
           <div className="mb-8 sm:mb-10 w-full flex flex-col items-center lg:items-start">
             <p className="text-sm sm:text-base font-medium mb-3 sm:mb-4 flex items-center gap-2 text-[#1D1D1F]">
               Get
